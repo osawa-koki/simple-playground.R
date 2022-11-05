@@ -37,3 +37,44 @@ str(1:10 / 10.0 + 0i)
 # num [1:10] 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1
 # num [1:10] 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1
 # cplx [1:10] 0.1+0i 0.2+0i 0.3+0i ...
+
+# ☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★
+# ★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆
+# ☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★
+# ★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆
+# ☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★
+
+# データ型はclass関数で確認できます。
+# class関数は、オブジェクトのクラスを返します。
+
+print(class(1))
+print(class("A"))
+print(class("あいうえお"))
+print(class(TRUE))
+print(class(1L))
+print(class(1.0))
+print(class(1 + 0i))
+print(class(1:10))
+print(class(letters))
+print(class(LETTERS))
+print(class(1:10 / 10))
+print(class(1:10 / 10.0))
+print(class(1:10 / 10.0 + 0i))
+
+# ========== ========== ========== ========== ==========
+# 実行結果
+# ========== ========== ========== ========== ==========
+
+# [1] "numeric"
+# [1] "character"
+# [1] "character"
+# [1] "logical"
+# [1] "integer"
+# [1] "numeric"
+# [1] "complex"
+# [1] "integer"
+# [1] "character"
+# [1] "character"
+# [1] "numeric"
+# [1] "numeric"
+# [1] "complex"
