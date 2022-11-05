@@ -13,6 +13,16 @@ r ./app/helloworld.R
 # -> [1] "Hello R lang!!!"
 ```
 
+## 自分用メモ
+
+なんかGitリポジトリがDockerコンテナ内で認識されなくなる時がある、、、  
+所有者も同じなんだけど、どうしてだろう、、、  
+とりあえず、強引だけど以下のコマンドで解決できる。  
+
+```shell
+sudo chown rstudio:rstudio -R .
+```
+
 ## 参考文献
 
 - <https://github.com/rocker-org/devcontainer-templates>
