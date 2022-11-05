@@ -9,7 +9,7 @@ R言語の学習用プロジェクト。
 r ./app/<ファイル名>
 
 # HelloWorldプログラム
-r ./app/helloworld.R
+r ./app/00.helloworld.R
 # -> [1] "Hello R lang!!!"
 ```
 
