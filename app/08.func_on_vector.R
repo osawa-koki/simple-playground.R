@@ -3,6 +3,8 @@
 # - mean
 # - sd
 # - var
+# - cor
+# - cov
 # - min
 # - max
 # - range
@@ -46,6 +48,16 @@ print(sd(.sd))
 
 .var <- c(1, 2, 3, 4, 5)
 print(var(.var))
+
+# [1] 2
+
+.cor <- c(1, 2, 3, 4, 5)
+print(cor(.cor))
+
+# [1] 1
+
+.cov <- c(1, 2, 3, 4, 5)
+print(cov(.cov))
 
 # [1] 2
 
