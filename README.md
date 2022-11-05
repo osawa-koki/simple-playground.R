@@ -15,3 +15,4 @@ r ./app/helloworld.R
 ## 参考文献
 
 - <https://github.com/rocker-org/devcontainer-templates>
+- [現場ですぐに使える！ R言語プログラミング逆引き大全 350の極意 (金城俊哉 / 秀和システム) | 6324798053622](https://books.rakuten.co.jp/rk/9b08325481ef3e8fbab86ed702d90e1a/)
