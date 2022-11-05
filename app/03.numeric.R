@@ -51,3 +51,30 @@ print(typeof(as.double(1)))
 # [1] "integer"
 # [1] "double"
 # [1] "double"
+
+# う～～～ん、、、
+# なんかおかしいですね。
+# なんでdouble型になるのかなぁ、、、
+
+# ☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★
+# ★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆
+# ☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★
+# ★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆
+# ☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★
+
+# integer関数、single関数、double関数を使用すると、動作モード型を指定することができます。
+
+int <- integer()
+sin <- single()
+dbl <- double()
+
+int <- as.integer(1)
+sin <- as.single(1)
+dbl <- as.double(1)
+
+print(typeof(int))
+print(typeof(sin))
+print(typeof(dbl))
+
+# これでも、double型になっちゃいますね、、、
+# もう少し調べてみます。
