@@ -78,3 +78,4 @@ print(typeof(dbl))
 
 # これでも、double型になっちゃいますね、、、
 # もう少し調べてみます。
+# TODO: single型について調べる。
